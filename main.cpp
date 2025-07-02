@@ -1,9 +1,11 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
 int main() {
     int x = 10;
+    string nome = "Joao";
 
-    cout << "Teste X: " << x << endl;
+    cout << nome << " X: " << x << endl;
 }
