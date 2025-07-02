@@ -6,6 +6,7 @@ using namespace std;
 int main() {
     int x = 10;
     string nome = "Joao";
+    string linguagem = "C++";
 
-    cout << nome << " X: " << x << endl;
+    cout << nome << " X: " << x << linguagem << endl;
 }
