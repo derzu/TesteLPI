@@ -8,5 +8,5 @@ int main() {
     string nome = "Joao";
     string linguagem = "C++";
 
-    cout << nome << " X: " << x << linguagem << endl;
+    cout << nome << " X: " << x << " Linguagem usada: " << linguagem << endl;
 }
