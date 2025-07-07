@@ -10,9 +10,9 @@ int main() {
     string linguagem = "C++";
 
     cout << nome << " X: " << x << " Linguagem usada: " << linguagem << endl;
-    cout << "Qual é o seu nome?\n";
-    scanf("%s", &seunome); 
-    printf("Boa tarde %s", seunome);
+    cout << "Qual é o seu nome?" << endl;
+    cin >> seunome;
+    cout << "Boa tarde " << seunome << endl;
 
     return 0; 
 }
